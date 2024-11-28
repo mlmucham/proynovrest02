@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definición de una CardView que contiene un ImageView para mostrar imágenes de perros. -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:background="@color/black"
+    android:layout_margin="16dp"
+    android:layout_height="320dp">
+
+    <!-- ImageView para mostrar la imagen del perro. -->
+    <!-- La imagen se ajusta al tamaño de la ImageView con scaleType="centerCrop". -->
+    <ImageView
+        android:id="@+id/ivDog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+</androidx.cardview.widget.CardView>
